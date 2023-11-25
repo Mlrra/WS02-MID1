@@ -5,7 +5,7 @@ html, body{
     margin: 0;
     }
     header{
-    background-color: #5681A6;
+    background-color: #6B5EB3;
     padding: 40px;
     text-align: center;
     }
@@ -13,17 +13,59 @@ html, body{
     font-size: 95px;
     color: white;
     -webkit-text-reflect: below 1px linear-gradiant(transparent, #0008);
- line-height: 0.70em;
- outline: none;
- animation: animate 10s  infinite;
- font-style: 40px;
- }
- @keyframes animate {
- 	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
- 		color: #f2f2f2;
-     text-shadow:  0 0 100px;
- 	}
- 	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
- 		color: #1fc6e0;
- 		text-shadow: 0 0 10px;
- 	}
+line-height: 0.70em;
+outline: none;
+animation: animate 10s  infinite;
+font-style: 40px;
+}
+@keyframes animate {
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+		color: #1fc6e0;
+    text-shadow:  0 0 100px;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+		color: #fff;
+		text-shadow: 0 0 10px;
+	}
+}
+    header img{
+    border-radius: 174px;
+     width: 300px;
+     border: 24px solid #1fc6e0;
+    }
+    .content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    img.big-image{
+      max-width: 100%;
+    
+    }
+    
+    p.cap3on{
+    font-size: 16px;
+    color: lightgrey;
+    font-style: italic;
+    }
+    ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    a{
+    color: red;
+    text-decoration: none;
+    }
+    footer{
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #1fc6e0;
+    }
+    footer ul{
+    text-align: center;
+    }
+    footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+    }
